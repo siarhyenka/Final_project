@@ -1,9 +1,141 @@
 .container {
     width: 80%;
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.main {
+    flex: 1 0 auto;
+    margin-top: 20px;
+}
+
 .nav__panel {
+    padding: 20px 25px 20px 25px;
+
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding-right: 40px;
+}
+
+.nav__items {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav__items a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 10.97px;
+    color: #B8B8B8;
+
+}
+
+form {
+    width: 303px; 
+    margin: 0 auto;
+    position: relative;
+}
+
+.form__input {
+    width: 100%;
+    height: 27px;
+    background: #191919;
+    border: none;
+    padding-left: 34px;
+    border-radius: 5px;
+
+    font-family: 'Monsterrat';
+    font-size: 15px;
+  }
+
+.form__btn {
+    height: 13px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    cursor: pointer;
+    background-color: #191919;
+    border: none;
+}
+
+.like__btn {
+    border: none;
+    background: transparent;
+}
+
+.cart {
+    margin-left: 15px;
+}
+
+.cart__btn {
+    border: none;
+    background: transparent;
+}
+
+.box__sidebar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baner {
+    width: 810px;
+    background-color: #191919;
+    position: relative;
+}
+
+.baner__title h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 105px;
+    line-height: 127.06px;
+    color: #616E74;
+}
+
+.baner__content {
+    margin-top: 20px;
+    margin-left: 42px;
+}
+
+.baner__content h3 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #616E74;
+    margin-bottom: 9px;
+}
+
+.baner__content h1 {
+    width: 480px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51.2px;
+    color: #F6F6F7;
+    margin-bottom: 24px;
+}
+
+.baner__content button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    padding: 9px 20px 9px 20px;
+    background-color: #6C3EB8;
+    border: none;
+    border-radius: 6px;
+}
+
+.baner__img img {
+    position: absolute;
+    top: 84px;
+    right: 33px;
 }

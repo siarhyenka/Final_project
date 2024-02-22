@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom"
 import { Layout } from "./Layout"
 import { Home } from "./modules/Home"
 import { Catalog } from "./modules/Catalog"
-import { Posts } from "./modules/Posts"
 import { Contacts } from "./modules/Contacts"
 
 
@@ -13,10 +12,8 @@ export const App = () => {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path="/Catalog" element={<Catalog />} />
-                    <Route path="/Posts" element={<Posts />} />
+                    <Route path="/Catalog/*" element={<Catalog />} />
                     <Route path="/Contacts" element={<Contacts />} />
-
                 </Route>
             </Routes>
         </>

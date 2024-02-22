@@ -1,3 +1,8 @@
+import { Route, Routes } from "react-router-dom"
+import { CatalogCategories } from "./CatalogCategories"
+
 export const Catalog = () => {
-    return <h2>Catalog</h2>
+    return <Routes>
+                <Route index element={<CatalogCategories />} />
+            </Routes>
 }
