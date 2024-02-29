@@ -1,3 +1,4 @@
 export const Contacts = () => {
-    return <div>Contacts</div>
+    console.log('lox')
+    return <h2>Contacts</h2>
 }

@@ -1,0 +1,35 @@
+.interesting__products {
+    background-color: #191919;
+    margin-top: 21px;
+    padding: 22px 0px 26px 0px;
+}
+
+.interesting__products h2 {
+    margin-bottom: 24px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    color: #ffffff;
+
+    text-align: center;
+}
+
+.interesting__products__items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.interesting__product img {
+    margin-bottom: 20px;
+}
+
+.interesting__product p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    color: #ffffff;
+
+    text-align: center;
+}

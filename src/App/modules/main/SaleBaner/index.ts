@@ -1,0 +1,1 @@
+export { SaleBaner } from './SaleBaner'

@@ -5,7 +5,10 @@ import Logo from './common/icons/logo.svg'
 import Like from './common/icons/like.svg'
 import Glass from './common/icons/glass.svg'
 import Baner from './common/icons/computer.png'
-import { Sidebar } from "../modules/Sidebar"
+import { Sidebar } from "../modules/main/Sidebar"
+import { Trending } from "../modules/main/Trending"
+import { IntProducts } from "../modules/main/IntProducts"
+import { SaleBaner } from "../modules/main/SaleBaner"
 
 export const Layout = () => {
     return <>
@@ -17,9 +20,9 @@ export const Layout = () => {
                             </div>
                             <nav className="nav">
                                 <ul className="nav__items">
-                                    <li className="nav__item"><NavLink to={'/'}>Home</NavLink></li>
-                                    <li className="nav__item"><NavLink to={'/Catalog'}>Catalog</NavLink></li>
-                                    <li className="nav__item"><NavLink to={'/Contacts'}>Contacts</NavLink></li>
+                                    <li className="nav__item"><NavLink to='/'>Home</NavLink></li>
+                                    <li className="nav__item"><NavLink to='/Catalog'>Catalog</NavLink></li>
+                                    <li className="nav__item"><NavLink to='/Contacts'>Contacts</NavLink></li>
                                 </ul>
                             </nav>
                             <form className="form">
@@ -67,7 +70,13 @@ export const Layout = () => {
                             </div>
                         </div>
                         
-                    </div>   
+                    </div>  
+
+                    <Trending /> 
+
+                    <IntProducts />
+
+                    <SaleBaner />
                 </main>
 
                 <footer className="footer">
