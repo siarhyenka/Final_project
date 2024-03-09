@@ -8,11 +8,13 @@ export const SaleBaner = () => {
                 <div className="container">
                     <div className="sale__baner">
                         <div className="left__part">
-                            <h3>NEW YEAR</h3>
-                            <h2>SALE</h2>
+                            {/* <div className='left__part__title'> */}
+                                <h3>NEW YEAR</h3>
+                                <h2>SALE</h2>
+                            {/* </div> */}
                             <button>See more</button>
-                            <img src={ProductSaleSneakers} />
-                            <img src={ProductSaleConsole} />
+                            <img src={ProductSaleSneakers} className='sale1'/>
+                            <img src={ProductSaleConsole} className='sale2'/>
                         </div>
                         <div className="right__part">
                             <img src={BackgroundSale} />

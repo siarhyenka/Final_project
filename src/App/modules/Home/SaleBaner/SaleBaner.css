@@ -6,6 +6,7 @@
 .left__part {
     width: 50%;
     background-color: #191919;
+    position: relative;
 }
 
 
@@ -26,6 +27,34 @@
     text-align: center;
 }
 
+.left__part button {
+    margin: 27px auto;
+    display: block;
+    background-color: #6C3EB8;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 20px 9px 20px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    color: #ffffff;
+}
+
+.left__part .sale1 {
+    width: 170px;
+    position: absolute;
+    bottom: 74px;
+    left: -21px;
+}
+
+.left__part .sale2 {
+    width: 230px;
+    position: absolute;
+    bottom: -23px;
+    right: -4px;
+}
+
 .right__part {
     /* background-image: url('../../../Layout/common/icons/background-sale.png'); */
     width: 50%;
@@ -38,8 +67,8 @@
 
 .right__part p {
     position: absolute;
-    bottom: 24px;
-    left: 100px;
+    bottom: 29px;
+    left: 183px;
     font-size: 20px;
     font-weight: 500;
     line-height: 24.38px;

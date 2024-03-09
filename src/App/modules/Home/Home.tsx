@@ -1,3 +1,19 @@
+import { BoxSidebar } from "./BoxSidebar"
+import { IntProducts } from "./IntProducts"
+import { LowPrice } from "./LowPrice"
+import { SaleBaner } from "./SaleBaner"
+import { Trending } from "./Trending"
+
 export const Home = () => {
-    return <h2>Home</h2>
+    return <>
+                <BoxSidebar />
+
+                <Trending /> 
+
+                <IntProducts />
+
+                <SaleBaner />
+
+                <LowPrice />
+            </>
 }

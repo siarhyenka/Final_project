@@ -18,6 +18,7 @@
 
 .sidebar__items {
     list-style-type: none;
+    margin-bottom: 10px;
 }
 
 .sidebar__item a {
@@ -26,7 +27,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 17.07px;
-
+    
 }
 
 .sidebar__item a:hover {
